@@ -1,0 +1,24 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>pro_08156</group>
+    <id>bbcf93d6-8421-4358-b0bd-eaf761744c7b</id>
+    <loglevel>INFO</loglevel>
+    <name>pro_08156_workflow</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <jobref group='pro_08156' name='config_puppet' />
+      </command>
+      <command>
+        <jobref group='pro_08156' name='config_monitoracao' />
+      </command>
+      <command>
+        <jobref group='pro_08156' name='config_backup' />
+      </command>
+    </sequence>
+    <uuid>bbcf93d6-8421-4358-b0bd-eaf761744c7b</uuid>
+  </job>
+</joblist>

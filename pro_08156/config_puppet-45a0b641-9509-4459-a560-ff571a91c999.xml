@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>pro_08156</group>
+    <id>45a0b641-9509-4459-a560-ff571a91c999</id>
+    <loglevel>INFO</loglevel>
+    <name>config_puppet</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo command 01</exec>
+      </command>
+    </sequence>
+    <uuid>45a0b641-9509-4459-a560-ff571a91c999</uuid>
+  </job>
+</joblist>

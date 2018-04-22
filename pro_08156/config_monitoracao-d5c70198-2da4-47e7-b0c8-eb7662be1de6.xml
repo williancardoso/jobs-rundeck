@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>pro_08156</group>
+    <id>d5c70198-2da4-47e7-b0c8-eb7662be1de6</id>
+    <loglevel>INFO</loglevel>
+    <name>config_monitoracao</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo command 2</exec>
+      </command>
+    </sequence>
+    <uuid>d5c70198-2da4-47e7-b0c8-eb7662be1de6</uuid>
+  </job>
+</joblist>

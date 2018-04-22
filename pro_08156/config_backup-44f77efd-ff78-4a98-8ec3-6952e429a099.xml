@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>pro_08156</group>
+    <id>44f77efd-ff78-4a98-8ec3-6952e429a099</id>
+    <loglevel>INFO</loglevel>
+    <name>config_backup</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo command 01</exec>
+      </command>
+    </sequence>
+    <uuid>44f77efd-ff78-4a98-8ec3-6952e429a099</uuid>
+  </job>
+</joblist>
